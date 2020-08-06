@@ -30,7 +30,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    // img: 'brain.jpg',
+    img: 'brain.jpg',
     title: 'Smart-Brain Facial Recognition',
     info: 'React App that detects faces using Clarifais facial recognition API',
     info2:
@@ -40,7 +40,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    // img: 'movie.jpg',
+    img: 'movie.jpg',
     title: 'Movie Search',
     info: 'React app for users to search up their favourite movies',
     info2: 'Displays movie cover, rating, release date and description',
@@ -55,8 +55,19 @@ export const projectsData = [
       'Developed an application in a team of 5 to help connect users of the music streaming service Deezer',
     info2:
       'Organized a data-set of ~140 000 users representing their friendship networks and liked genres of music',
-    url: '',
+    url: 'https://github.com/Kariappa/Two-to-Tango',
     repo: 'https://github.com/Kariappa/Two-to-Tango', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    // img: 'logo.png',
+    title: '40 Theives Solitaire',
+    info:
+      'Programmed a C++ implementation of the solitaire game of Forty Thieves with a command line interface',
+    // info2:
+    // 'Organized a data-set of ~140 000 users representing their friendship networks and liked genres of music',
+    url: 'https://github.com/Kariappa/Forty-Thieves-Solitaire',
+    repo: 'https://github.com/Kariappa/Forty-Thieves-Solitaire', // if no repo, the button will not show up
   },
 ];
 
